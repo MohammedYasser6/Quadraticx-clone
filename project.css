@@ -1,0 +1,282 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: tahoma;
+}
+.header{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    padding: 1rem 6rem;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+}
+.header ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+    padding-right: 3rem;
+
+}
+.LOGO{
+    width:20rem;
+}
+
+.header li {
+    position: relative;
+    margin: 0 0rem;
+    font-size: px;
+    font-family: Tahoma; 
+    color: #333; 
+}
+.header li:not(:last-child):hover::after{
+    content: "";
+    cursor: pointer;
+    position: absolute;
+    bottom: -0.5rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 2px;
+    background-color: orange;
+    
+}
+.contact{
+    border: solid orange 1px;
+    padding: 1rem;
+    border-radius: 25px;
+}
+.contact:hover{
+    transition: 3;
+    
+    color: white;
+    background-color:orange;
+}
+.background{
+    width: 100%;
+    height: 700px;
+    margin-top: 7rem;
+    background-image:url(Job-Connection-Office-Worker.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bh2{
+    width: 100%;
+    font-size: 50px;
+    color: rgb(248, 178, 109);
+    font-weight: 600;
+    font-family: Tahoma;
+    padding: 5rem;
+}
+.bh2{
+    width: 50%;
+    color: rgb(248, 178, 109);
+    font-family: Tahoma;
+}
+.pre-cards{
+    justify-content: center;
+    text-align: center;
+
+}
+
+.hh{
+    color: blue;
+    font-size: 50px;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-family:  Arial;
+}
+
+    
+
+.h2{
+    font-size: 25px;
+
+   justify-content: center;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family:  Tahoma;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+}
+.card-logo {
+    width: 50px; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin-bottom: 15px;
+   
+}
+
+
+.card-1 {
+    width: 300px;
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    padding: 20px;
+    align-items: center; 
+   
+}
+.ch-1 {
+    font-size: 30px;
+    font-family: tahoma;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.s1 {
+    font-family: tahoma;
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.mid-banner{
+    width: 100%;
+    height: 200px;
+    
+    text-align: center;
+    background-color: rgba(110, 172, 242, 0.448);
+}
+.mid-h{
+    font-family: tahoma;
+    font-size: 50px;
+    color: blue;
+    padding: 20px;
+}
+.mid{
+    display: flex;
+    justify-content: center;
+    font-family: tahoma;
+    font-size: 30px;
+    
+}
+.Know-more{
+    margin: 150px ;
+}
+.kimage{
+    float: left;
+    padding-right: 2rem;
+}
+.know-more-s{
+    color: #ccc;
+    font-family: tahoma;
+    font-size: 25px;
+}
+.lii{
+    font-size: 20px;
+    margin-top: 30px ;
+    list-style: none;
+
+
+}
+.counter {
+    background-color: rgba(110, 172, 242, 0.448);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.numbers {
+    color: blue ;
+    font-family: tahoma;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.use-cases{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px;
+    
+}
+.image-1{
+    border-radius: 1rem;
+    width: 500px;
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    padding: 30px;
+    align-items: center; 
+    display: block;
+
+}
+.use-header{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 18px;
+    font-family: tahoma;
+    margin-bottom: 10px;
+}
+
+.area{
+ 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 30px;
+    
+    
+
+}
+.area-b{
+background-color: rgba(185, 194, 203, 0.26);
+}
+.area-h{
+    font-family: tahoma;
+    font-size: 30px;
+    color: blue;
+    text-align: center;
+    font-family: tahoma;
+
+}
+.area-w{
+    display: flex;
+    margin-top: 2rem;
+    
+}
+
+.cards-area{
+    background-color: #ccc;
+}
+
+
+.image-boarder{
+    border-radius: 2rem;
+}
+
+
+.link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.link{
+    color: blue;
+}
+.footer{
+    background-color:rgb(27, 24, 24)  ;
+    width: 100%;
+    height: 400px;
+}
+.logo-2{
+    float: left;
+}
